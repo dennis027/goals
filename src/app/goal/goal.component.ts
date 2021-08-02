@@ -5,7 +5,7 @@ import { GoalService } from '../goal-service/goal.service';
 import {AlertService } from '../alert-service/alert.service';
 import { HttpClient } from '@angular/common/http';
 import { Quote } from '../quote-class/quote';
-
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-goal',
